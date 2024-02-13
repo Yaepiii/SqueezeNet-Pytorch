@@ -7,6 +7,16 @@ It is tested with pytorch-1.0.
 
 ```
 git clone https://github.com/Yaepiii/SqueezeNet-Pytorch
+cd SqueezeNet-Pytorch
+pip install torch
+```
+
+or, you are in anaconda:
+
+```
+conda create -n SqueezeNet-Pytorch python=3.8
+conda activate SqueezeNet-Pytorch
+conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
 ```
 
 Training 
